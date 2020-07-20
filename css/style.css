@@ -415,7 +415,7 @@ footer p {
     display: block;
   }
   #mobile-nav {
-    height: 50%;
+    height: 0%;
     width: 100%;
     position: fixed;
     top: 0;
