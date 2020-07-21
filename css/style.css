@@ -77,7 +77,7 @@ section {
   border: 4px solid #ffbe0b;
 }
 .skill-body {
-  margin-top: 250px;
+  margin-top: 290px;
 }
 .skill-body hr {
   background-color: #976dd0;
@@ -235,7 +235,7 @@ section {
   top: -20px;
 }
 .progress-bar .text-12 {
-  color: #a5e12e;
+  color: #26578a;
   right: 62%;
   top: -1px;
 }
@@ -366,56 +366,29 @@ footer p {
   line-height: 20px;
 }
 
-/* @media (min-width: 1200px) and (max-width: 1299px) {
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .detail {
-    margin: 50px;
-    text-align: center;
-  }
-  .detail h1 {
-    font-size: 5rem;
-    color: black;
-  }
-} */
-/* @media (min-width: 768px) and (max-width: 991px) {
-  .detail {
-    margin: 80px;
-    text-align: center;
-  }
-  .btn {
-    margin-bottom: 7px;
-  }
-} */
-/* @media (max-width: 767px) {
-  .detail {
-    text-align: center;
-    margin: 80px;
-  }
-  .btn {
-    margin-bottom: 7px;
-  }
-  body {
-    background-color: red;
-  }
-} */
-
 /* phone size */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .navbar-header {
     position: relative;
-  }
-  #mobile-nav-open-btn {
-    font-size: 30px;
-    position: absolute;
-    cursor: pointer;
-    right: 0;
-    top: 6px;
-    z-index: -2;
+    padding: 20px;
     display: block;
   }
+
+  .nav li a {
+    display: none;
+  }
+  #mobile-nav-open-btn {
+    font-size: 40px;
+    position: absolute;
+    color: #f92953;
+    cursor: pointer;
+    left: 700px;
+    top: 9px;
+    z-index: -2;
+    display: inline;
+  }
   #mobile-nav {
-    height: 0%;
+    height: 50%;
     width: 100%;
     position: fixed;
     top: 0;
@@ -424,15 +397,16 @@ footer p {
     background-color: #fefaef;
     transition: all 300ms linear;
     overflow: hidden;
-    display: block;
+    display: none;
   }
   #mobile-nav-close-btn {
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 400;
+    color: #f92953;
     cursor: pointer;
     position: absolute;
     top: -9px;
-    right: 13px;
+    right: 60px;
   }
   #mobile-nav-content {
     text-align: center;
@@ -449,10 +423,7 @@ footer p {
     font-weight: 400;
     display: inline;
   }
-  #mobile-nav-open-btn {
-    right: -650px;
-    display: block;
-  }
+
   .figure-dot {
     width: 240px;
     height: 240px;
@@ -501,8 +472,279 @@ footer p {
   }
   /*skill*/
   .skill-body {
-    margin-top: 900px;
+    margin-top: 750px;
     padding-bottom: 60px;
+  }
+  .skill-body hr {
+    width: 1300px;
+    margin-left: -290px;
+  }
+  .skill {
+    height: 65px;
+    width: 65px;
+    border-radius: 120%;
+  }
+  .skill-1 {
+    margin-top: -570px;
+  }
+  .skill-2,
+  .skill-3,
+  .skill-4,
+  .skill-5,
+  .skill-6 {
+    margin-top: 130px;
+  }
+
+  .progress-1 {
+    height: 5px;
+    margin-top: -535px;
+  }
+  .progress-2,
+  .progress-3 {
+    height: 5px;
+    margin-top: -28px;
+  }
+
+  .progress-4,
+  .progress-5 {
+    height: 5px;
+    margin-left: 8%;
+    margin-top: -30px;
+  }
+  .progress-6 {
+    height: 5px;
+    margin-left: -3%;
+    margin-top: -30px;
+  }
+  .progress-bar-1 {
+    width: 50%;
+  }
+  .progress-bar-2 {
+    width: 100%;
+  }
+  .progress-bar-3 {
+    width: 45%;
+  }
+  .progress-bar-4 {
+    width: 50%;
+  }
+  .progress-bar-5 {
+    width: 50%;
+  }
+  .progress-bar-6 {
+    width: 48%;
+  }
+  .progress-bar .text {
+    font-size: 38px;
+    font-weight: 30px;
+    padding: 15px;
+  }
+  .progress-bar .text-1,
+  .progress-bar .text-5 {
+    left: 58%;
+    top: -55px;
+  }
+  .progress-bar .text-2 {
+    left: 28%;
+    top: 1px;
+  }
+  .progress-bar .text-3 {
+    left: 78%;
+    top: -55px;
+  }
+  .progress-bar .text-4 {
+    left: 55%;
+    top: 1px;
+  }
+
+  .progress-bar .text-6 {
+    left: 20%;
+    top: 1px;
+  }
+  .progress-bar .text-7,
+  .progress-bar .text-9 {
+    right: 75%;
+    top: -55px;
+  }
+  .progress-bar .text-8 {
+    right: 65%;
+    top: 1px;
+  }
+
+  .progress-bar .text-10 {
+    right: 60%;
+    top: 1px;
+  }
+  .progress-bar .text-11 {
+    right: 75%;
+    top: -55px;
+  }
+  .progress-bar .text-12 {
+    right: 35%;
+    top: 1px;
+  }
+  .project-1 {
+    padding-top: 70px;
+  }
+  .project-1 img,
+  .project-2 img {
+    width: 100%;
+    height: 30%;
+    padding: 2px;
+  }
+  .project-1 p,
+  .project-2 p {
+    padding: 20px;
+    font-size: 37px;
+  }
+  .hobby {
+    font-size: 37px;
+    padding-top: 80px;
+  }
+  .hobby h3 {
+    font-size: 55px;
+    padding: 30px;
+  }
+  .hobby-fig {
+    height: 300px;
+    width: 300px;
+  }
+  .hobby-fig img {
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+  }
+  .profile {
+    text-align: center;
+    padding-top: 120px;
+  }
+  .profile img {
+    height: 400px;
+    width: 400px;
+  }
+  .contact-icon img {
+    margin: 20px 10px;
+    width: 70px;
+    height: 70px;
+  }
+  #contact h4 {
+    font-size: 37px;
+    margin: 10px;
+  }
+  footer {
+    font-size: 28px;
+    padding: 55px;
+  }
+  footer p {
+    word-spacing: 1px;
+  }
+}
+@media only screen and (min-device-width: 482px) and (max-device-width: 767px) {
+  .navbar-header {
+    position: relative;
+    padding: 20px;
+    display: block;
+  }
+
+  .nav li a {
+    display: none;
+  }
+  #mobile-nav-open-btn {
+    font-size: 40px;
+    position: absolute;
+    color: #f92953;
+    cursor: pointer;
+    left: 700px;
+    top: 9px;
+    z-index: -2;
+    display: inline;
+  }
+  #mobile-nav {
+    height: 50%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #fefaef;
+    transition: all 300ms linear;
+    overflow: hidden;
+    display: none;
+  }
+  #mobile-nav-close-btn {
+    font-size: 80px;
+    font-weight: 400;
+    color: #f92953;
+    cursor: pointer;
+    position: absolute;
+    top: -9px;
+    right: 60px;
+  }
+  #mobile-nav-content {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    top: 10%;
+  }
+  #mobile-nav ul li {
+    margin-bottom: 20px;
+  }
+  #mobile-nav li a {
+    font-size: 50px;
+    font-weight: 400;
+    display: inline;
+  }
+
+  .figure-dot {
+    width: 240px;
+    height: 240px;
+    left: 20px;
+  }
+
+  .figure-dot-1 img {
+    width: 400px;
+    height: 400px;
+    left: -80px;
+  }
+  .detail {
+    text-align: center;
+    margin: 90px;
+  }
+
+  .detail h1 {
+    font-size: 130px;
+    font-weight: 30px;
+    margin-bottom: 25px;
+  }
+  .detail h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .detail h3 .e1 {
+    font-weight: 20px;
+    font-size: 40px;
+  }
+  .detail h3 .e2 {
+    font-size: 40px;
+  }
+  .btn {
+    border-radius: 45px;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .btn .e1 {
+    font-size: 39px;
+  }
+  .title h3 {
+    font-size: 60px;
+  }
+  .title span {
+    font-size: 60px;
+  }
+  .skill-body {
+    margin-top: 700px;
+    padding-bottom: 40px;
   }
   .skill-body hr {
     width: 1300px;
@@ -617,7 +859,7 @@ footer p {
   }
   .project-1 img,
   .project-2 img {
-    width: 100%;
+    width: 80%;
     height: 30%;
     padding: 2px;
   }
@@ -668,7 +910,11 @@ footer p {
     word-spacing: 1px;
   }
 }
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .nav li a {
+    font-size: 20px;
+  }
   .figure-dot {
     width: 240px;
     height: 240px;
@@ -884,6 +1130,9 @@ footer p {
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+  .nav li a {
+    font-size: 20px;
+  }
   .figure-dot {
     width: 240px;
     height: 240px;
