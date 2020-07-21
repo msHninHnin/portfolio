@@ -283,7 +283,7 @@ section {
   color: #f92953;
   font-size: 90px;
   font-weight: 30px;
-  font-family: "Chewy", cursive;
+  font-family: "Chewy";
 }
 .detail h3 {
   color: #838b93;
@@ -368,6 +368,9 @@ footer p {
 
 /* phone size */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .navbar {
+    background-color: #fff;
+  }
   .navbar-header {
     position: relative;
     padding: 20px;
@@ -383,18 +386,18 @@ footer p {
     color: #f92953;
     cursor: pointer;
     left: 700px;
-    top: 9px;
+    top: 10px;
     z-index: -2;
     display: inline;
   }
   #mobile-nav {
-    height: 50%;
-    width: 100%;
+    height: 100%;
+    width: 50%;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 3;
-    background-color: #fefaef;
+    background-color: #fff;
     transition: all 300ms linear;
     overflow: hidden;
     display: none;
@@ -405,11 +408,11 @@ footer p {
     color: #f92953;
     cursor: pointer;
     position: absolute;
-    top: -9px;
+    top: 10px;
     right: 60px;
   }
   #mobile-nav-content {
-    text-align: center;
+    left: 20px;
     width: 100%;
     margin-top: 30px;
     position: relative;
@@ -421,7 +424,7 @@ footer p {
   #mobile-nav li a {
     font-size: 50px;
     font-weight: 400;
-    display: inline;
+    display: block;
   }
 
   .figure-dot {
@@ -459,7 +462,7 @@ footer p {
   .btn {
     border-radius: 45px;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .btn .e1 {
     font-size: 39px;
@@ -640,6 +643,9 @@ footer p {
   }
 }
 @media only screen and (min-device-width: 482px) and (max-device-width: 767px) {
+  .navbar {
+    background-color: #fff;
+  }
   .navbar-header {
     position: relative;
     padding: 20px;
@@ -655,18 +661,18 @@ footer p {
     color: #f92953;
     cursor: pointer;
     left: 700px;
-    top: 9px;
+    top: 13px;
     z-index: -2;
     display: inline;
   }
   #mobile-nav {
-    height: 50%;
-    width: 100%;
+    height: 100%;
+    width: 50%;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 3;
-    background-color: #fefaef;
+    background-color: #fff;
     transition: all 300ms linear;
     overflow: hidden;
     display: none;
@@ -677,11 +683,11 @@ footer p {
     color: #f92953;
     cursor: pointer;
     position: absolute;
-    top: -9px;
+    top: 13px;
     right: 60px;
   }
   #mobile-nav-content {
-    text-align: center;
+    left: 20px;
     width: 100%;
     margin-top: 30px;
     position: relative;
@@ -693,9 +699,8 @@ footer p {
   #mobile-nav li a {
     font-size: 50px;
     font-weight: 400;
-    display: inline;
+    display: block;
   }
-
   .figure-dot {
     width: 240px;
     height: 240px;
@@ -727,11 +732,12 @@ footer p {
   }
   .detail h3 .e2 {
     font-size: 40px;
+    margin-bottom: 15px;
   }
   .btn {
     border-radius: 45px;
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .btn .e1 {
     font-size: 39px;
