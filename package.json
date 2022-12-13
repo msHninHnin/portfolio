@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/msHninHnin/portfolio#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "live-server": "^1.2.1"
   }
 }
